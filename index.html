@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Milestone, countdown to the next thing | Elijah Purcell</title>
 <meta name="description" content="A visual countdown to the things you are actually waiting for. Add your own, reorder by date. By Elijah Purcell, Purcell Ventures LLC.">
-<meta property="og:title" content="Milestone — countdown to the next thing">
+<meta property="og:title" content="Milestone, countdown to the next thing">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -482,7 +482,7 @@
 <footer>
   <p>What's next, in days.<br>
   <a href="https://github.com/thebigjah/milestone">github.com/thebigjah/milestone</a></p>
-  <div class="credit">— PURCELLVENTURES.CO —</div>
+  <div class="credit">, PURCELLVENTURES.CO,</div>
 </footer>
 
 </div>
@@ -525,7 +525,7 @@ function daysUntil(dateStr) {
 
 function ensureSeeded() {
   if (milestones === null) {
-    // first run — seed
+    // first run, seed
     milestones = DEFAULTS.map(d => ({ id: uid(), ...d }));
     localStorage.setItem(SEEDED_KEY, '1');
     save();
